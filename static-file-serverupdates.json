@@ -8,16 +8,5 @@
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
         "OneShot": false
-    },
-    {
-        "UpdateStageName": "",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "CopyFilePath",
-        "UpdateSourceData": "./serverfiles/static-web-server",
-        "UpdateSourceArgs": "./static-web-server-v2.43.0-x86_64-unknown-linux-gnu/static-web-server",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
-        "OneShot": false
     }
 ]
