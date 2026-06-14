@@ -1,0 +1,23 @@
+[
+    {
+        "UpdateStageName": "",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://github.com/static-web-server/static-web-server/releases/download/v2.43.0/static-web-server-v2.43.0-x86_64-unknown-linux-gnu.tar.gz",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "CopyFilePath",
+        "UpdateSourceData": "./serverfiles/static-web-server",
+        "UpdateSourceArgs": "./static-web-server-v2.43.0-x86_64-unknown-linux-gnu/static-web-server",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    }
+]

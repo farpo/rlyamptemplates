@@ -1,0 +1,36 @@
+[
+    {
+        "DisplayName": "Port",
+        "Category": "Server Settings",
+        "Description": "the port",
+        "Keywords": "port",
+        "FieldName": "port",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "port",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "8080",
+        "Placeholder": "8080",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Root",
+        "Category": "Server Settings",
+        "Description": "Root",
+        "Keywords": "root",
+        "FieldName": "root",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "root",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "./public",
+        "Placeholder": "./public",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    }
+]
