@@ -24,7 +24,7 @@
         "FieldName": "root",
         "InputType": "text",
         "IsFlagArgument": false,
-        "ParamFieldName": "r",
+        "ParamFieldName": "d",
         "IncludeInCommandLine": true,
         "DefaultValue": "./public",
         "Placeholder": "./public",
